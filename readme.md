@@ -1,19 +1,26 @@
-# inline-api [![Build Status](https://secure.travis-ci.org/johnotander/inline-api.svg?branch=master)](https://travis-ci.org/johnotander/inline-api) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
+# inline
+
+__Work in progress__
 
 Get inline css api
 
 ## Installation
 
+#### Server
+
 ```bash
-npm install --save inline-api
+git clone https://github.com/cssstats/inline.git && cd $_
+npm i
+npm start
 ```
 
-## Usage
+#### Client
 
-```javascript
-var inlineApi = require('inline-api')
-
-inlineApi()  // => true
+```
+cd client
+npm i -g naka
+npm i
+naka serve
 ```
 
 ## License

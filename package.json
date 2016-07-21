@@ -1,5 +1,5 @@
 {
-  "name": "inline-api",
+  "name": "inline",
   "description": "Get inline css api",
   "author": "John Otander",
   "version": "0.1.0",
@@ -7,7 +7,7 @@
   "scripts": {
     "start": "micro -p 3000 index.js"
   },
-  "repository": "cssstats/inline-api",
+  "repository": "cssstats/inline",
   "keywords": [],
   "license": "MIT",
   "dependencies": {

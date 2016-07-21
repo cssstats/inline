@@ -1,0 +1,18 @@
+{
+  "name": "naka-project",
+  "version": "0.1.0",
+  "description": "New naka project",
+  "main": "index.js",
+  "scripts": {
+    "start": "naka serve",
+    "test": "naka test"
+  },
+  "dependencies": {
+    "cxs": "^1.0.0-beta.11",
+    "isomorphic-fetch": "^2.2.1",
+    "naka": "latest",
+    "query-string": "^4.2.2"
+  },
+  "author": "",
+  "license": "MIT"
+}
