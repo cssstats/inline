@@ -4,11 +4,8 @@
   "author": "John Otander",
   "version": "0.1.0",
   "main": "index.js",
-  "files": [
-    "index.js"
-  ],
   "scripts": {
-    "test": "ava"
+    "start": "micro -p 3000 index.js"
   },
   "repository": "cssstats/inline-api",
   "keywords": [],
@@ -16,7 +13,8 @@
   "dependencies": {
     "get-inline": "^0.1.0",
     "get-query-param": "^1.0.0",
-    "micro": "^4.1.1"
+    "micro": "^4.1.1",
+    "normalize-url": "^1.6.0"
   },
   "devDependencies": {
     "ava": "*"
