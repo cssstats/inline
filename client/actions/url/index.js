@@ -4,15 +4,13 @@ module.exports = {
   name: 'url',
 
   retrieve: (action, state, dispatch) => {
-    const url = `http://localhost:3000?url=${action.url}`
-    console.log(url)
-    console.log(action)
+    const url = `http://johno.in?url=${action.url}`
 
     fetch(url)
       .then(res => res.json())
       .then(data => dispatch('styles.reducers.set', { data }))
       .catch(e => console.log(e))
 
-    dispatch('query.reducers.set', { query: url })
+    dispatch('query.reducers.set', { url: action.url })
   }
 }
