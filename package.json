@@ -5,8 +5,9 @@
   "version": "0.1.0",
   "main": "index.js",
   "scripts": {
-    "start": "micro -p 3000 index.js",
-    "serve:prod": "xvfb-run --server-args=\"-screen 0 1280x1028x24 -ac +extension GLX +render\" micro -p 3000 index.js"
+    "preinstall": "apt-get update && apt-get install -y libgtk2.0-0 libgconf-2-4 libasound2 libxtst6 libxss1 libnss3 xvfb",
+    "dev": "micro -p 3000 index.js",
+    "start": "xvfb-run --server-args=\"-screen 0 1280x1028x24 -ac +extension GLX +render\" micro -p 3000 index.js"
   },
   "repository": "cssstats/inline",
   "keywords": [],
