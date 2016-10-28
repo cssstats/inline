@@ -11,10 +11,10 @@
   "keywords": [],
   "license": "MIT",
   "dependencies": {
-    "get-inline": "^0.1.0",
+    "get-inline": "^0.1.1",
     "get-query-param": "^1.0.0",
-    "micro": "^4.1.1",
-    "normalize-url": "^1.6.0"
+    "micro": "^6.1.0",
+    "normalize-url": "^1.7.0"
   },
   "devDependencies": {
     "ava": "*"

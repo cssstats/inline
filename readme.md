@@ -2,25 +2,12 @@
 
 __Work in progress__
 
-Get inline css api
+Get inline css api.
 
 ## Installation
 
-#### Server
-
 ```bash
-git clone https://github.com/cssstats/inline.git && cd $_
-npm i
-npm start
-```
-
-#### Client
-
-```
-cd client
-npm i -g naka
-npm i
-naka serve
+npm i && npm start
 ```
 
 ## License
